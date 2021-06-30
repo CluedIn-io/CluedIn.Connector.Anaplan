@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>CluedIn.Connector.Anaplan</AssemblyName>
+    <RootNamespace>CluedIn.Connector.Anaplan</RootNamespace>
+    <IsCluedInServerComponent>true</IsCluedInServerComponent>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\anaplan.png" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="CluedIn.Core" />
+    <PackageReference Include="CluedIn.Core.Agent" />
+    <PackageReference Include="CluedIn.Crawling" />
+    <PackageReference Include="ComponentHost" />
+    <PackageReference Include="CsvHelper" />
+  </ItemGroup>
+  
+</Project>
